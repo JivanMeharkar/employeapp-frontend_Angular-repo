@@ -1,0 +1,56 @@
+.dashboard-container {
+  padding: 30px;
+}
+
+
+.header {
+  margin-bottom: 30px;
+}
+
+
+.header h1 {
+  font-size: 32px;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+
+
+.card {
+
+  padding: 25px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0px 4px 15px gray;
+  text-align: center;
+
+}
+
+
+.card h2 {
+
+  font-size: 35px;
+  margin: 0;
+
+}
+
+
+.card p {
+
+  font-size: 18px;
+
+}
+
+
+.welcome-box {
+
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  background: #f5f5f5;
+
+}
