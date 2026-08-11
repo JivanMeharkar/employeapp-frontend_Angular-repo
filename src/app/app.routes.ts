@@ -17,13 +17,6 @@ export const routes: Routes = [
   },
 
   {
-    path: 'register/:id',
-    loadComponent: () =>
-      import('./components/employee-registration/employee-registration')
-        .then(m => m.EmployeeRegistration)
-  },
-
-  {
     path: 'employees',
     loadComponent: () =>
       import('./components/employee-list/employee-list')
