@@ -11,7 +11,7 @@ import { Sidebar } from './components/sidebar/sidebar';
     Sidebar
   ],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
 
